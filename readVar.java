@@ -7,8 +7,8 @@ public class readVar {
     private static void ptl(Object value) {
         System.out.println(value);
     }
-    static Scanner scan = new Scanner(System.in);
-    static String empty = "";
+    private static Scanner scan = new Scanner(System.in);
+    private static String empty = "";
     public static int readInt(int min, int max, String prompt, String reprompt) {
         int value;
         String check;
